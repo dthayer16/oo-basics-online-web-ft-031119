@@ -1,14 +1,14 @@
 # Make your shoe class here!
 class shoe
-attr_accessor :color, :size, :material, :condition
-attr_reader :brand
+  attr_accessor :color, :size, :material, :condition
+  attr_reader :brand
 
-def initialize(brand)
-  @brand = brand
-end
+  def initialize(brand)
+    @brand = brand
+  end
 
-def cobble
-  puts "The shoe has been repaired"
-  @condition = "New"
-end
+  def cobble
+    puts "The shoe has been repaired"
+    @condition = "New"
+  end
 end
